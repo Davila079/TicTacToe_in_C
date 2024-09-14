@@ -2,7 +2,7 @@ Implementation of Dijkstra’s Algorithm for Finding the Shortest Path in a Grap
 In this implementation, we utilize Dijkstra’s algorithm to find the shortest path between two nodes in a graph. Below, I’ll describe the key steps involved in this process:
 
 Initialization:
-\tWe set the distance from the source node to itself as 0, and all other distances as infinity (represented by a large value, such as INT_MAX).
+    We set the distance from the source node to itself as 0, and all other distances as infinity (represented by a large value, such as INT_MAX).
     We create an empty set called “S” to store visited nodes.
     Initialize a priority queue (or a queue called “Q”) with all nodes in the graph.
 Main Loop:
